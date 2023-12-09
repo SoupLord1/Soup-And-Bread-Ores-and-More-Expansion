@@ -1,0 +1,38 @@
+{
+    "name": "Alcino Smelter",
+    "description": "",
+    "type": "GenericCrafter",
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawDefault"
+        },
+        {
+          "type": "DrawFlame"
+        }
+      ]
+    },
+    "size": 4,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 75,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+      "power": 5, 
+      "items": [
+        "cobalt/2",
+        "niccolite/2",
+        "aluminum/2"
+      ] 
+    },
+    "requirements": [
+      "aluminum/100",
+      "brass/50",
+      "steel/30"
+    ],
+    "category": "crafting",
+    "outputItem": "alnico/3"
+  }
+   

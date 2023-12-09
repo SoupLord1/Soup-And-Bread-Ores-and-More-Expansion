@@ -1,0 +1,37 @@
+{
+    "name": "Ferolum Forge",
+    "description": "",
+    "type": "GenericCrafter",
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+          {
+            "type": "DrawDefault"
+          },
+          {
+            "type": "DrawFlame"
+          }
+        ]
+      },
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 75,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+      "power": 3, 
+      "items": [
+        "aluminum/2",
+        "iron/2"
+      ] 
+    },
+    "requirements": [
+      "aluminum/50",
+      "zinc/30",
+      "steel/10"
+    ],
+    "category": "crafting",
+    "outputItem": "ferolum/2"
+  }
+   
