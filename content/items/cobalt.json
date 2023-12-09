@@ -1,6 +1,6 @@
 {
     "name": "Cobalt",
-    "hardness": 6,
-    "cost": 1,
+    "hardness": 4,
+    "cost": 6,
     "color": "#6974c4"
 }

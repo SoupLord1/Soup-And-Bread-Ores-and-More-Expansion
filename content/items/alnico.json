@@ -1,0 +1,7 @@
+{
+    "name": "Alnico",
+    "description": "Magnetic Alloy",
+    "hardness": 3,
+    "cost": 1,
+    "color": "#9a5000"
+}
