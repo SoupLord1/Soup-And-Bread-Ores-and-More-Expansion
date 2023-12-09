@@ -1,6 +1,6 @@
 {
-    "name": "Aluminium Refinery",
-    "description": "Refines Bauxite into Aluminium",
+    "name": "Aluminum Refinery",
+    "description": "Refines Bauxite into Aluminum",
     "type": "GenericCrafter",
     "drawer": {
       "type": "DrawMulti",
@@ -22,7 +22,7 @@
     "consumes": {
       "power": 4, 
       "items": [
-        "Bauxite/2"
+        "bauxite/2"
       ] 
     },
     "requirements": [
