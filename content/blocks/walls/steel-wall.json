@@ -1,5 +1,5 @@
 {
-  "name": "Iron Wall",
+  "name": "Steel Wall",
   "type": "Wall",
   "buildCostMultiplier": 0.1,
   "deflectSound": "sap",
@@ -10,7 +10,7 @@
   "size": 1,
   "requirements": [
     {
-      "item": "iron",
+      "item": "steel",
       "amount": 10
     }
   ],
