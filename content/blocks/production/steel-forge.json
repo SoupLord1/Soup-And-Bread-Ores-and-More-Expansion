@@ -1,0 +1,41 @@
+{
+    "name": "Steel Forge",
+    "description": "Refines Iron into Steel",
+    "type": "GenericCrafter",
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawDefault"
+        },
+        {
+          "type": "DrawFlame"
+        }
+      ]
+    },
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 75,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+      "power": 4, 
+      "items": [
+        "iron/3",
+        "graphite/1"
+      ] 
+    },
+    "requirements": [
+      "iron/150",
+      "zinc/60",
+      "brass/30"
+    ],
+    "category": "crafting",
+    "outputItem": "steel/2",
+    "outputLiquids": [
+      "slag/0.075"
+    ]
+  }
+   
+  

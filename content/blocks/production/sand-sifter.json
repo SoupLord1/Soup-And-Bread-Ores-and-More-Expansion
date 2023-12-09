@@ -1,0 +1,26 @@
+{
+    "name": "Sand Sifter",
+    "description": "Sifts iron particles out of sand",
+    "type": "GenericCrafter",
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 32,
+    "updateEffect": "none",
+    "consumes": {
+      "power": 1.5, 
+      "items": [
+        "sand/10"
+      ] 
+    },
+    "requirements": [
+      "titanium/40",
+      "silicon/30",
+      "lead/30"
+    ],
+    "category": "crafting",
+    "outputItem": "iron/2"
+  }
+   
+  

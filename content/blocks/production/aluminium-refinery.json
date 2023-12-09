@@ -1,0 +1,36 @@
+{
+    "name": "Aluminium Refinery",
+    "description": "Refines Bauxite into Aluminium",
+    "type": "GenericCrafter",
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawDefault"
+        },
+        {
+          "type": "DrawFlame"
+        }
+      ]
+    },
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 75,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+      "power": 4, 
+      "items": [
+        "Bauxite/2"
+      ] 
+    },
+    "requirements": [
+      "bauxite/50",
+      "zinc/30",
+      "lead/20"
+    ],
+    "category": "crafting",
+    "outputItem": "steel/2"
+  }
+   

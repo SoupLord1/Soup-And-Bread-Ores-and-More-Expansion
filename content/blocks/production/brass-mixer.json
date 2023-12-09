@@ -1,0 +1,38 @@
+{
+    "name": "Brass Mixer",
+    "description": "Melts and combines Zinc and Copper to make Brass",
+    "type": "GenericCrafter",
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawDefault"
+        },
+        {
+          "type": "DrawFlame"
+        }
+      ]
+    },
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity": 20,
+    "craftTime": 75,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+      "power": 2, 
+      "items": [
+        "zinc/1",
+        "copper/2"
+      ] 
+    },
+    "requirements": [
+      "iron/50",
+      "zinc/30",
+      "lead/20"
+    ],
+    "category": "crafting",
+    "outputItem": "brass/3"
+  }
+   
+  
